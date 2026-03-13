@@ -6,7 +6,7 @@
   <title>Big Tech Season Special — Win 1 of 10 iPhones 17 | IQ Option</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -18,7 +18,7 @@
       <a href="/" class="logo" aria-label="IQ Option">
         <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
           <circle cx="16" cy="16" r="16" fill="#FE7A20"/>
-          <rect x="6" y="8"  width="4" height="16" rx="2" fill="#fff"/>
+          <rect x="6"  y="8"  width="4" height="16" rx="2" fill="#fff"/>
           <rect x="14" y="11" width="4" height="13" rx="2" fill="#fff"/>
           <rect x="22" y="5"  width="4" height="19" rx="2" fill="#fff"/>
         </svg>
@@ -55,10 +55,9 @@
 
   <!-- ═══════════════ HERO ═══════════════ -->
   <section class="hero">
-    <!-- Background glow layers -->
     <div class="hero__bg" aria-hidden="true">
-      <div class="hero__glow hero__glow--top"></div>
-      <div class="hero__glow hero__glow--bottom"></div>
+      <div class="hero__glow--center"></div>
+      <div class="hero__glow--bottom"></div>
     </div>
 
     <div class="hero__content">
@@ -68,7 +67,7 @@
           <span></span><span></span><span></span>
         </span>
         Big Tech Season Special
-        <span class="bar-ornament" aria-hidden="true">
+        <span class="bar-ornament bar-ornament--flip" aria-hidden="true">
           <span></span><span></span><span></span>
         </span>
       </div>
@@ -76,97 +75,36 @@
       <!-- Main headline -->
       <h1 class="hero__headline">Win 1 of 10 iPhones 17</h1>
 
-      <!-- iPhone stage with floating badges -->
-      <div class="hero__stage">
+      <!-- iPhone + floating badges stage -->
+      <div class="hero__stage" aria-label="iPhone 17 with tech company logos">
+        <img class="badge badge--apple"  src="images/apple-badge.png"  alt="Apple"  />
+        <img class="badge badge--amazon" src="images/amazon-badge.png" alt="Amazon" />
+        <img class="badge badge--nvidia" src="images/nvidia-badge.png" alt="Nvidia" />
+        <img class="hero__iphone" src="images/hero-iphone.png" alt="iPhone 17 with IQ Option" />
+        <!-- decorative blob shapes -->
+        <img class="blob blob--orange" src="images/image-123.png" alt="" aria-hidden="true" />
+        <img class="blob blob--peach"  src="images/image-124.png" alt="" aria-hidden="true" />
+      </div>
 
-        <!-- Apple badge -->
-        <div class="app-badge app-badge--apple" aria-hidden="true">
-          <svg viewBox="0 0 50 58" width="44" fill="#f0f0f0">
-            <path d="M44.3 19.8c-.1-7.6 6.2-11.2 6.5-11.4-3.5-5.1-9-5.8-11-5.9-4.7-.5-9.1 2.8-11.5 2.8-2.4 0-6-2.7-9.8-2.6-5 .1-9.7 2.9-12.3 7.4-5.3 9.1-1.4 22.7 3.7 30.1 2.5 3.6 5.5 7.7 9.4 7.6 3.8-.1 5.2-2.4 9.7-2.4 4.5 0 5.8 2.4 9.8 2.3 4.1-.1 6.6-3.7 9.1-7.4 2.9-4.2 4.1-8.3 4.1-8.5-.1 0-7.8-3-7.7-11.9zm-7.3-22c2.1-2.5 3.5-5.9 3.1-9.4-2.9.1-6.4 2-8.5 4.4-1.9 2.2-3.5 5.8-3 9.1 3.2.2 6.4-1.7 8.4-4.1z"/>
-          </svg>
-        </div>
-
-        <!-- Amazon badge -->
-        <div class="app-badge app-badge--amazon" aria-hidden="true">
-          <svg viewBox="0 0 100 60" width="70" fill="none">
-            <text x="0" y="32" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="white" letter-spacing="-0.5">amazon</text>
-            <path d="M3 48 Q50 60 97 48" stroke="#FF9900" stroke-width="4" fill="none" stroke-linecap="round"/>
-            <polygon points="93,44 100,48 93,52" fill="#FF9900"/>
-          </svg>
-        </div>
-
-        <!-- Nvidia badge -->
-        <div class="app-badge app-badge--nvidia" aria-hidden="true">
-          <svg viewBox="0 0 130 40" width="90" fill="none">
-            <text x="0" y="32" font-family="Arial Black, sans-serif" font-size="34" font-weight="900" fill="#76B900" letter-spacing="-1">NVIDIA</text>
-          </svg>
-        </div>
-
-        <!-- CSS iPhone -->
-        <div class="iphone">
-          <div class="iphone__frame">
-            <div class="iphone__island"></div>
-            <div class="iphone__screen">
-              <!-- Screen wallpaper with racing car suggestion -->
-              <div class="iphone__wallpaper">
-                <div class="iphone__wallpaper-car">
-                  <!-- Stylised car silhouette -->
-                  <svg viewBox="0 0 280 120" width="280" height="120" fill="none" style="opacity:.7">
-                    <ellipse cx="140" cy="100" rx="130" ry="18" fill="rgba(0,0,0,0.5)"/>
-                    <!-- Car body -->
-                    <path d="M30 75 L55 45 L90 32 L190 32 L225 45 L250 75 Z" fill="#B8620A" stroke="#FF6B00" stroke-width="1.5"/>
-                    <path d="M80 45 L100 33 L180 33 L200 45 Z" fill="#FF8C00" opacity=".6"/>
-                    <!-- Wheels -->
-                    <circle cx="75"  cy="80" r="22" fill="#111" stroke="#444" stroke-width="3"/>
-                    <circle cx="75"  cy="80" r="12" fill="#222" stroke="#666" stroke-width="2"/>
-                    <circle cx="205" cy="80" r="22" fill="#111" stroke="#444" stroke-width="3"/>
-                    <circle cx="205" cy="80" r="12" fill="#222" stroke="#666" stroke-width="2"/>
-                    <!-- Diffuser -->
-                    <path d="M20 75 Q140 68 260 75" stroke="#FF4500" stroke-width="2" fill="none" opacity=".6"/>
-                  </svg>
-                </div>
-                <!-- Screen UI elements -->
-                <div class="iphone__screen-ui">
-                  <div class="iphone__time">1:47</div>
-                  <div class="iphone__date">Sunday, March 10</div>
-                  <div class="iphone__cta-pill">I'm in the challenge</div>
-                </div>
-              </div>
-            </div>
-            <!-- Side buttons -->
-            <div class="iphone__btn iphone__btn--vol-up"></div>
-            <div class="iphone__btn iphone__btn--vol-dn"></div>
-            <div class="iphone__btn iphone__btn--power"></div>
-          </div>
-        </div>
-
-      </div><!-- /hero__stage -->
-
-      <!-- Main CTA below iPhone -->
+      <!-- CTA -->
       <a href="#how-to-enter" class="btn-primary btn-hero-cta">I'm in the challenge</a>
     </div>
   </section>
 
 
-  <!-- ═══════════════ INFO SECTION ═══════════════ -->
+  <!-- ═══════════════ INFO ═══════════════ -->
   <section class="info" id="whats-happened">
-    <!-- Laser beam decoration -->
-    <div class="lasers" aria-hidden="true">
-      <div class="laser laser--1"></div>
-      <div class="laser laser--2"></div>
-      <div class="laser laser--3"></div>
-      <div class="laser laser--4"></div>
-    </div>
+    <img class="info__laser" src="images/hero-bg.png" alt="" aria-hidden="true" />
 
     <div class="info__content">
       <div class="info__block">
         <div class="pill-tag">What's happened?</div>
         <p class="info__text">Apple. Microsoft. Amazon. Nvidia…The biggest names in tech are<br>battling for top results during the 2026 earnings season!</p>
-        <p class="info__text">This is one of the <em class="text-orange">hottest periods</em> of the year — and we're<br>celebrating it with a special campaign.</p>
+        <p class="info__text">This is one of the <span class="text-orange">hottest periods</span> of the year — and we're<br>celebrating it with a special campaign.</p>
       </div>
 
       <div class="info__block">
-        <div class="pill-tag">What I can expect?</div>
+        <div class="pill-tag">What can I expect?</div>
         <p class="info__text">Expect an iPhone challenge, exclusive gifts and educational<br>support to help you make the most of the season.</p>
       </div>
     </div>
@@ -181,19 +119,20 @@
 
       <div class="prizes__stage">
         <!-- iPhone box illustration -->
-        <div class="iphone-box" aria-label="iPhone 17 prize">
-          <div class="iphone-box__outer">
+        <div class="iphone-box" aria-label="iPhone 17 prize box">
+          <div class="iphone-box__wrapper">
             <div class="iphone-box__face">
-              <!-- Apple logo on box -->
-              <svg viewBox="0 0 50 58" width="52" fill="rgba(60,60,60,0.8)" style="margin-bottom:8px">
+              <svg viewBox="0 0 50 58" width="52" fill="rgba(200,195,190,0.65)" style="margin-bottom:6px">
                 <path d="M44.3 19.8c-.1-7.6 6.2-11.2 6.5-11.4-3.5-5.1-9-5.8-11-5.9-4.7-.5-9.1 2.8-11.5 2.8-2.4 0-6-2.7-9.8-2.6-5 .1-9.7 2.9-12.3 7.4-5.3 9.1-1.4 22.7 3.7 30.1 2.5 3.6 5.5 7.7 9.4 7.6 3.8-.1 5.2-2.4 9.7-2.4 4.5 0 5.8 2.4 9.8 2.3 4.1-.1 6.6-3.7 9.1-7.4 2.9-4.2 4.1-8.3 4.1-8.5-.1 0-7.8-3-7.7-11.9zm-7.3-22c2.1-2.5 3.5-5.9 3.1-9.4-2.9.1-6.4 2-8.5 4.4-1.9 2.2-3.5 5.8-3 9.1 3.2.2 6.4-1.7 8.4-4.1z"/>
               </svg>
               <span class="iphone-box__label">iPhone</span>
             </div>
-            <!-- Phone visible above box -->
             <div class="iphone-box__phone">
-              <div class="iphone-box__phone-screen">
-                <div class="iphone-box__phone-flower"></div>
+              <div class="iphone-box__phone-body">
+                <div class="iphone-box__phone-island"></div>
+                <div class="iphone-box__phone-screen">
+                  <div class="iphone-box__phone-wallpaper"></div>
+                </div>
               </div>
             </div>
           </div>
@@ -202,13 +141,13 @@
 
         <!-- Counter badge -->
         <div class="counter-badge">
-          <svg class="counter-badge__ring" viewBox="0 0 228 228" width="190" height="190" fill="none">
-            <circle cx="114" cy="114" r="110" stroke="rgba(245,204,170,0.4)" stroke-width="1.5"/>
-            <circle cx="114" cy="114" r="88" stroke="rgba(245,204,170,0.15)" stroke-width="1"/>
+          <svg class="counter-badge__ring" viewBox="0 0 220 220" fill="none">
+            <circle cx="110" cy="110" r="106" stroke="rgba(245,204,170,0.35)" stroke-width="1.5"/>
+            <circle cx="110" cy="110" r="84"  stroke="rgba(245,204,170,0.12)" stroke-width="1"/>
             <defs>
-              <path id="arc" d="M114,114 m-100,0 a100,100 0 1,1 200,0 a100,100 0 1,1 -200,0"/>
+              <path id="arc" d="M110,110 m-96,0 a96,96 0 1,1 192,0 a96,96 0 1,1 -192,0"/>
             </defs>
-            <text font-size="11" fill="#EBEBE9" font-family="Inter,sans-serif" letter-spacing="3.5" opacity=".8">
+            <text font-size="10.5" fill="#ECEAE9" font-family="Inter,sans-serif" letter-spacing="3.8" opacity=".7">
               <textPath href="#arc" startOffset="0%">✦ PIECES IN THE CHALLENGE ✦ PIECES IN THE CHALLENGE ✦</textPath>
             </text>
           </svg>
@@ -225,7 +164,6 @@
       <h2 class="section-heading">How to enter the challenge</h2>
 
       <div class="steps">
-
         <div class="step">
           <span class="step__label">Step #1</span>
           <div class="step__orb">
@@ -236,7 +174,7 @@
         <div class="step">
           <span class="step__label">Step #2</span>
           <div class="step__orb">
-            <p class="step__text">More tickets → higher chances</p>
+            <p class="step__text">More tickets →<br>higher chances</p>
             <p class="step__sub">1 deposit = 1 ticket</p>
           </div>
         </div>
@@ -244,13 +182,12 @@
         <div class="step">
           <span class="step__label">Step #3</span>
           <div class="step__orb">
-            <p class="step__text">Promotion dates:<br>April 1–May 1</p>
+            <p class="step__text">Promotion dates:<br>April 1 – May 1</p>
           </div>
         </div>
-
       </div>
 
-      <button class="btn-primary btn-large" type="button">Join the challenge</button>
+      <a href="#" class="btn-primary btn-large">Join the challenge</a>
     </div>
   </section>
 
@@ -259,18 +196,17 @@
   <div class="promo">
     <div class="promo__inner">
       <div class="promo__left">
-        <!-- Lightning bolt icon -->
-        <div class="promo__icon">
+        <div class="promo__icon" aria-hidden="true">
           <svg viewBox="0 0 48 64" width="36" fill="none">
             <path d="M28 2L2 36h20L18 62l28-34H26L28 2z" fill="#FF8516" stroke="#FF6B00" stroke-width="1.5" stroke-linejoin="round"/>
           </svg>
         </div>
         <div class="promo__text">
           <h3 class="promo__title">Earnings Season Booster</h3>
-          <p class="promo__desc">Use promo code <strong>EARNINGS</strong> with your next deposit, and as a gift, we'll send you an email with an exclusive trading strategy to help you trade with more confidence.</p>
+          <p class="promo__desc">Use promo code <strong>EARNINGS</strong> with your next deposit and as a gift we'll send you an exclusive trading strategy to help you trade with more confidence during earnings season.</p>
         </div>
       </div>
-      <button class="btn-primary" type="button">Deposit now</button>
+      <a href="#" class="btn-primary">Deposit now</a>
     </div>
   </div>
 
@@ -337,38 +273,29 @@
 
         <div class="footer__aside">
           <div class="svc-cards">
-            <div class="svc-card">
-              <div class="svc-icon">
-                <svg viewBox="0 0 40 40" width="40"><circle cx="20" cy="20" r="20" fill="#38312d"/>
-                  <path d="M12 29L20 11l8 18M15 24h10" stroke="#FE7A20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
-              </div>
-              <span>Affiliate Program</span><span class="arr">↗</span>
-            </div>
-            <div class="svc-card">
-              <div class="svc-icon">
-                <svg viewBox="0 0 40 40" width="40"><circle cx="20" cy="20" r="20" fill="#38312d"/>
-                  <text x="20" y="26" text-anchor="middle" font-size="12" font-weight="700" fill="#EBEBE9" font-family="Inter,sans-serif">VIP</text></svg>
-              </div>
-              <span>VIP</span><span class="arr">↗</span>
-            </div>
-            <div class="svc-card">
-              <div class="svc-icon">
-                <svg viewBox="0 0 40 40" width="40"><circle cx="20" cy="20" r="20" fill="#38312d"/>
-                  <text x="20" y="27" text-anchor="middle" font-size="19" fill="#FBB35A">★</text></svg>
-              </div>
-              <span>Elite club</span><span class="arr">↗</span>
-            </div>
+            <a href="#" class="svc-card">
+              <svg viewBox="0 0 36 36" width="36" height="36"><circle cx="18" cy="18" r="18" fill="#38312D"/><path d="M10 27L18 9l8 18M13 22h10" stroke="#FE7A20" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+              <span class="svc-card__label">Affiliate Program</span><span class="arr">↗</span>
+            </a>
+            <a href="#" class="svc-card">
+              <svg viewBox="0 0 36 36" width="36" height="36"><circle cx="18" cy="18" r="18" fill="#38312D"/><text x="18" y="23" text-anchor="middle" font-size="11" font-weight="700" fill="#ECEAE9" font-family="Inter,sans-serif">VIP</text></svg>
+              <span class="svc-card__label">VIP</span><span class="arr">↗</span>
+            </a>
+            <a href="#" class="svc-card">
+              <svg viewBox="0 0 36 36" width="36" height="36"><circle cx="18" cy="18" r="18" fill="#38312D"/><text x="18" y="24" text-anchor="middle" font-size="17" fill="#FBB35A">★</text></svg>
+              <span class="svc-card__label">Elite club</span><span class="arr">↗</span>
+            </a>
           </div>
           <div class="qr-card">
             <p class="qr-label">Scan to download app</p>
-            <svg viewBox="0 0 110 110" width="110" height="110" fill="#EBEBE9">
-              <rect x="5" y="5" width="33" height="33" rx="3" fill="none" stroke="#EBEBE9" stroke-width="3"/>
+            <svg viewBox="0 0 110 110" width="100" height="100" fill="#ECEAE9">
+              <rect x="5"  y="5"  width="33" height="33" rx="3" fill="none" stroke="#ECEAE9" stroke-width="3"/>
               <rect x="11" y="11" width="21" height="21" rx="1.5"/>
-              <rect x="72" y="5" width="33" height="33" rx="3" fill="none" stroke="#EBEBE9" stroke-width="3"/>
+              <rect x="72" y="5"  width="33" height="33" rx="3" fill="none" stroke="#ECEAE9" stroke-width="3"/>
               <rect x="78" y="11" width="21" height="21" rx="1.5"/>
-              <rect x="5" y="72" width="33" height="33" rx="3" fill="none" stroke="#EBEBE9" stroke-width="3"/>
+              <rect x="5"  y="72" width="33" height="33" rx="3" fill="none" stroke="#ECEAE9" stroke-width="3"/>
               <rect x="11" y="78" width="21" height="21" rx="1.5"/>
-              <rect x="46" y="5" width="7" height="7"/><rect x="57" y="5" width="7" height="7"/>
+              <rect x="46" y="5"  width="7" height="7"/><rect x="57" y="5"  width="7" height="7"/>
               <rect x="46" y="16" width="7" height="7"/><rect x="57" y="16" width="7" height="7"/>
               <rect x="46" y="46" width="7" height="7"/><rect x="57" y="57" width="7" height="7"/>
               <rect x="46" y="68" width="7" height="7"/><rect x="57" y="46" width="7" height="7"/>
@@ -397,7 +324,7 @@
       </div>
 
       <div class="footer__bottom">
-        <span class="footer__copy">IQ Option, © 2013-2025</span>
+        <span class="footer__copy">IQ Option, © 2013–2025</span>
         <span class="footer__powered">Powered by quadcode</span>
       </div>
     </div>
